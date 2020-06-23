@@ -1,8 +1,3 @@
-/*=====================================================================================================*/
-/* Giving credit where credit is due, The JS is all built off of my original mod of Twily's homepage. */
-/* If there are any similarities left, it's probably because it's based on his code.                 */
-/*==================================================================================================*/
-
 var $ = function(id) {
   return document.getElementById(id);
 };
@@ -39,14 +34,14 @@ var svgSocial  = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 *   - Name and URL are pretty self explanitory. 
 *   - 3rd position may be used in the future, but right now it's not used and can be left blank.
 */
-// Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
+// Also yes I could totally use a json object to represent the menus
 var linkMenu = [
   
   
   
   [svgSocial,                  "white",                                       "-HEAD-"], // Media
   ["Weather",              "https://weather.com/",""],
-  ["BBC",                  "http://www.bbc.com/",""],
+  ["BBC",                  "https://www.bbc.com/",""],
   ["GoogleNews",           "https://news.google.com/",""],
   ["HackerNews",           "https://news.ycombinator.com/",""],
   ["rWorldNews",           "https://www.reddit.com/r/worldnews/",""],
@@ -62,7 +57,7 @@ var linkMenu = [
   [svgMore,                    "white",                                      "-HEAD-"], // Other
   ["Gmail",                "https://mail.google.com",""],
   ["Youtube",              "https://www.youtube.com",""],
-  ["imdb",                 "http://www.imdb.com/",""],
+  ["imdb",                 "https://www.imdb.com/",""],
   ["MyAnimeList",          "https://myanimelist.net/",""],
 ];
 
