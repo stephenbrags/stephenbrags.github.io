@@ -37,6 +37,7 @@ var svgSocial  = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus
 var linkMenu = [
   [svgSocial,                  "white",                                       "-HEAD-"], // Media
+  ["Gmail",                "https://mail.google.com",""],
   ["Youtube",              "https://www.youtube.com",""],
   ["GoogleNews",           "https://news.google.com/",""],
   ["BBC",                  "https://www.bbc.com/",""],
@@ -49,7 +50,7 @@ var linkMenu = [
   
   
   [svgMore,                    "white",                                        "-HEAD-"], // Other
-  ["Gmail",                "https://mail.google.com",""],
+ 
   ["imdb",                 "https://www.imdb.com/",""],
   ["MyAnimeList",          "https://myanimelist.net/",""],
 ];
